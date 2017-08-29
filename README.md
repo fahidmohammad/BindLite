@@ -21,7 +21,7 @@ Works with: IE 9+, FF 4+, SF 5+, WebKit, CH 7+, OP 12+
 #### RequireJS
 ```javascript
 require("BindLite", function(BindLite){
-	let bind = new DataBind(options);
+    let bind = new BindLite(options);
 });
 ```
 
@@ -50,7 +50,7 @@ let options = {
         }
     }
 };
-var BL = new BindLite(options);
+let BL = new BindLite(options);
 ```
 
 ## Allow deep array bindings
@@ -89,7 +89,7 @@ let options = {
         }]
     }
 };
-var BL = new BindLite(options);
+var let = new BindLite(options);
 ```
 
 ## Allow binding of Events
@@ -123,7 +123,7 @@ let options = {
         }
     }
 };
-var BL = new BindLite(options);
+var let = new BindLite(options);
 ```
 
 # Coming up!
