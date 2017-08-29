@@ -20,9 +20,9 @@ Works with: IE 9+, FF 4+, SF 5+, WebKit, CH 7+, OP 12+
 
 #### RequireJS
 ```javascript
-	require("BindLite", function(BindLite){
-		let bind = new DataBind(options);
-	});
+require("BindLite", function(BindLite){
+	let bind = new DataBind(options);
+});
 ```
 
 # Examples
